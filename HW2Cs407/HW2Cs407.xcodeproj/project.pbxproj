@@ -14,11 +14,10 @@
 		FB4758AD1C8FFE8C008AD1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4758AB1C8FFE8C008AD1E3 /* LaunchScreen.storyboard */; };
 		FB4758B81C8FFE8C008AD1E3 /* HW2Cs407Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4758B71C8FFE8C008AD1E3 /* HW2Cs407Tests.swift */; };
 		FB4758C31C8FFE8C008AD1E3 /* HW2Cs407UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4758C21C8FFE8C008AD1E3 /* HW2Cs407UITests.swift */; };
-		FB4758D11C8FFEB7008AD1E3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4758D01C8FFEB7008AD1E3 /* File.swift */; };
-		FB4758D31C8FFFB6008AD1E3 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4758D21C8FFFB6008AD1E3 /* calendar.swift */; };
 		FB4758D51C934CA7008AD1E3 /* event.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4758D41C934CA7008AD1E3 /* event.swift */; };
 		FB4758D71C934D1C008AD1E3 /* mouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4758D61C934D1C008AD1E3 /* mouth.swift */; };
 		FB4758DB1C934F9F008AD1E3 /* day.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4758DA1C934F9F008AD1E3 /* day.swift */; };
+		FB4758DD1C939883008AD1E3 /* addaevent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4758DC1C939883008AD1E3 /* addaevent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +51,10 @@
 		FB4758BE1C8FFE8C008AD1E3 /* HW2Cs407UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW2Cs407UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4758C21C8FFE8C008AD1E3 /* HW2Cs407UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW2Cs407UITests.swift; sourceTree = "<group>"; };
 		FB4758C41C8FFE8C008AD1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB4758D01C8FFEB7008AD1E3 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		FB4758D21C8FFFB6008AD1E3 /* calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
 		FB4758D41C934CA7008AD1E3 /* event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = event.swift; sourceTree = "<group>"; };
 		FB4758D61C934D1C008AD1E3 /* mouth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mouth.swift; sourceTree = "<group>"; };
 		FB4758DA1C934F9F008AD1E3 /* day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = day.swift; path = ../day.swift; sourceTree = "<group>"; };
+		FB4758DC1C939883008AD1E3 /* addaevent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addaevent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,16 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				FB4758DA1C934F9F008AD1E3 /* day.swift */,
+				FB4758DC1C939883008AD1E3 /* addaevent.swift */,
 				FB4758A21C8FFE8C008AD1E3 /* AppDelegate.swift */,
 				FB4758D61C934D1C008AD1E3 /* mouth.swift */,
 				FB4758A41C8FFE8C008AD1E3 /* ViewController.swift */,
-				FB4758D21C8FFFB6008AD1E3 /* calendar.swift */,
 				FB4758D41C934CA7008AD1E3 /* event.swift */,
 				FB4758A61C8FFE8C008AD1E3 /* Main.storyboard */,
 				FB4758A91C8FFE8C008AD1E3 /* Assets.xcassets */,
 				FB4758AB1C8FFE8C008AD1E3 /* LaunchScreen.storyboard */,
 				FB4758AE1C8FFE8C008AD1E3 /* Info.plist */,
-				FB4758D01C8FFEB7008AD1E3 /* File.swift */,
 			);
 			path = HW2Cs407;
 			sourceTree = "<group>";
@@ -273,10 +270,9 @@
 			files = (
 				FB4758A51C8FFE8C008AD1E3 /* ViewController.swift in Sources */,
 				FB4758D71C934D1C008AD1E3 /* mouth.swift in Sources */,
-				FB4758D11C8FFEB7008AD1E3 /* File.swift in Sources */,
 				FB4758A31C8FFE8C008AD1E3 /* AppDelegate.swift in Sources */,
 				FB4758DB1C934F9F008AD1E3 /* day.swift in Sources */,
-				FB4758D31C8FFFB6008AD1E3 /* calendar.swift in Sources */,
+				FB4758DD1C939883008AD1E3 /* addaevent.swift in Sources */,
 				FB4758D51C934CA7008AD1E3 /* event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
